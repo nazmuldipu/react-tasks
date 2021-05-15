@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "font-awesome/css/font-awesome.css";
+import './initData';//save initial data to local storage
 import './index.css';
 import App from './App';
+import * as serviceWorker from './serviceWorker';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>

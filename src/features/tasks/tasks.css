@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  } 
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: none;
+}
+td, th {
+    border: 1px solid #dee2e6;
+}
+.task-root{
+    margin: 50px;
+}
+.task-element{
+    margin: 2px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: green;
+}
+.task-element.Warmup{
+    background-color: red;
+}
+.task-element.VIP{
+    background-color: blue;
+}
