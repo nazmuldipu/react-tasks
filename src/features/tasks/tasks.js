@@ -13,9 +13,9 @@ const Tasks = () => {
                 <tbody>
                     {tasks.map(task => (
                         <tr key={task.id}>
-                            <td>
-                                <div className={`task-element ${task.type}`}>
-                                    <Tooltip content={task} direction="bottom">
+                            <td className="col-width">
+                                <div className="col-width">
+                                    <Tooltip content={task} type={task.type} direction="bottom">
                                         {task.name} 
                                     </Tooltip>
                                 </div>
