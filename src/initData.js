@@ -29,4 +29,3 @@ const initialState = [
 ];
 
 localStorage.setItem('redux-store', JSON.stringify(initialState));
-console.log('data')
