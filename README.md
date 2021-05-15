@@ -12,3 +12,12 @@ this is the project for NEI coding challenges.
 6. You can use TypeScript or JavaScript.
 7. Would be great to see some tests if time permits.
 
+## To run the app:
+    Step 1: Install the packages using command "npm i"
+    Step 2: Run the app using command "npm start"
+
+
+## To test the app:
+    Step 1: Install the packages using command "npm i"
+    Step 2: Test app using command "npm test"
+
